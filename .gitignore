@@ -1,0 +1,6 @@
+.DS_Store
+.idea/
+src/test/apps/
+src/main/apps/
+target/
+grid/selenium-server-standalone-3.8.1.jar
