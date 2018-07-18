@@ -1,7 +1,7 @@
 # AppiumMobileParallel
 IOS, Andriod. Selenium grid, Appium parallel
 ## Environment setup
-Refer [here](https://github.com/CassieRyu/AppiumMobileParallel/resources/Environment-Setup.md)
+Refer [here](https://github.com/CassieRyu/AppiumMobileParallel/blob/master/resources/Environment-Setup.md)
 ## Run on Single Thread
 ### iOS
 * Start Appium server on port 4723

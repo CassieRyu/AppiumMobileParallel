@@ -54,7 +54,7 @@ This is a guideline on appium settings, aimed to run android emulator and iOS si
 * Click button **Start Server v1.7.2** -> click **Inspector** icon -> input desired capabilities for connect emulator and your apk, [here](https://appium.io/docs/en/writing-running-appium/caps/) for each capabilities explanation
 * Run `$ adb devices` to list the running emulators
 * For example
-![alt text](https://github.com/CassieRyu/AppiumMobileParallel/tree/master/resources/android-appium-capabilities.png "android appium desired capabilities setting")
+![alt text](https://github.com/CassieRyu/AppiumMobileParallel/blob/master/resources/android-appium-capabilities.png "android appium desired capabilities setting")
 * Start session
 ## Run iOS Simulator on Appium
 ### Run Simulator
@@ -65,6 +65,6 @@ This is a guideline on appium settings, aimed to run android emulator and iOS si
 * Run `$ instruments -s devices` to list available simulators
 * Same for above steps for appium
 * Example for simulator's capabilities
-![alt text](https://github.com/CassieRyu/AppiumMobileParallel/tree/master/resources/iOS-appium-capabilities.png "iOS appium desired capabilities setting")
+![alt text](https://github.com/CassieRyu/AppiumMobileParallel/blob/tree/master/resources/iOS-appium-capabilities.png "iOS appium desired capabilities setting")
 * please note: if you want to run your app on iOS simulators, you need **.app** package instead of **.ipa** package
 * Start session
