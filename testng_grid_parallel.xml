@@ -6,9 +6,8 @@
         <parameter name="node_port" value="4724"/>
         <parameter name="device_name" value="iPhone 7 Plus"/>
         <parameter name="wdaLocalPort" value="8100"/>
-        <parameter name="udid" value="F1908AB8-F21F-4DB3-B4D4-84B1220F997A"/>
         <classes>
-            <class name="IOSParallel">
+            <class name="IOS_Grid_Parallel">
             </class>
         </classes>
     </test>
@@ -17,20 +16,8 @@
         <parameter name="node_port" value="4723"/>
         <parameter name="device_name" value="iPhone 8"/>
         <parameter name="wdaLocalPort" value="8101"/>
-        <parameter name="udid" value="53E9579F-D4C5-4892-B280-B4A104BEAE1C"/>
         <classes>
-            <class name="IOSParallel">
-            </class>
-        </classes>
-    </test>
-
-    <test name="iPhone X">
-        <parameter name="node_port" value="4722"/>
-        <parameter name="device_name" value="iPhone X"/>
-        <parameter name="wdaLocalPort" value="8102"/>
-        <parameter name="udid" value="C29A5E6A-EABE-40E7-BEC0-4904E6B60A8F"/>
-        <classes>
-            <class name="IOSParallel">
+            <class name="IOS_Grid_Parallel">
             </class>
         </classes>
     </test>

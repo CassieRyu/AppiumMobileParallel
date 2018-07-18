@@ -1,13 +1,12 @@
 
 
 import io.appium.java_client.ios.IOSDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.*;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class IOSSample {
+public class IOS_Sample {
 
     public IOSDriver IOSdriver;
 
@@ -29,15 +28,8 @@ public class IOSSample {
 
     @Test
     public void loginTest() {
-        WebElement userElem = IOSdriver.findElementByXPath("//XCUIElementTypeApplication[@name=\"shoppingIOS\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeTextField[1]");
-        userElem.sendKeys("test");
-
-        WebElement passwordElem = IOSdriver.findElementByXPath("//XCUIElementTypeApplication[@name=\"shoppingIOS\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeTextField[2]");
-        passwordElem.sendKeys("test");
-
-        WebElement loginElem = IOSdriver.findElementByAccessibilityId("登录");
-        loginElem.click();
-
+        IOSUtils utils = new IOSUtils();
+        utils.loginTest(IOSdriver);
     }
 
     @AfterClass

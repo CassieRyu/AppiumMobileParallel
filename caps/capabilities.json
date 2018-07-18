@@ -1,0 +1,34 @@
+{
+
+  "iOS": {
+    "platformName": "iOS",
+    "app": {
+      "simulator": "./src/test/apps/shoppingIOS.app"
+    },
+    "deviceName": "iPhone",
+    "wdaLaunchTimeout": 80000,
+    "wdaConnectionTimeout": 80000,
+    "preventWDAAttachments": true,
+    "clearSystemFiles": true,
+    "shouldUseSingletonTestManager": false,
+    "simpleIsVisibleCheck": true,
+    "maxTypingFrequency": 10
+  },
+  "hostMachines": [
+    {
+      "machineIP": "127.0.0.1",
+      "simulators": [
+        {
+          "deviceName": "iPhone 6",
+          "OS": "11.3"
+        },
+        {
+          "deviceName": "iPhone 7",
+          "OS": "11.3"
+        }
+      ]
+    }
+  ],
+  "ATDServiceHost":"127.0.0.1",
+  "ATDServicePort":"3000"
+}

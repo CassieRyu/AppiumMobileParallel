@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class AndroidSample {
+public class Android_Sample {
 
     public AndroidDriver androidDriver;
 
