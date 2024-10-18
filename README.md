@@ -37,5 +37,3 @@ $ mvn test
 * Start Appium server on port 4723
 * Config file, sample `testng_appium_parallel.xml` 
 * Run test
-## Appium Test Distribution
-TODO
